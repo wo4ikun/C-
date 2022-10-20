@@ -1,0 +1,23 @@
+using System;
+class Program {
+  public static void Main (string[] args) {
+   string arithmeticoperation="/";
+  int a=114, b=514;
+    switch(arithmeticoperation )
+    {
+      case "+" : Console.WriteLine("arithmeticoperation is + {0}",(a+b));
+        break;
+      case "-" : Console.WriteLine("arithmeticoperation is - {0}",(a-b));
+        break;
+      case "*" : Console.WriteLine("arithmeticoperation is * {0}",(a*b)); 
+        break;
+      case "/" : Console.WriteLine("arithmeticoperation is / {0}",(a*b));
+        break;
+      default: 
+        Console.WriteLine("arithmeticoperation is %" );
+        break;
+    }
+  }
+}
+
+
