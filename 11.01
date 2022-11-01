@@ -8,3 +8,48 @@ class Program {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int i=2;
+    while(i<=20)
+    {
+      
+      Console.WriteLine(i);
+      i=i+2;
+    } 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int i=2;
+    do
+    {
+      
+      Console.WriteLine(i);
+      i=i+2;
+    } while(i<=20);
+  }
+}
