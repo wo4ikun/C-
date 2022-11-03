@@ -1,0 +1,98 @@
+using System;
+class Program {
+  public static void Main (string[] args) {
+    
+    Console.WriteLine("Which one of the following is not a programming language?");
+    Console.WriteLine("a. C++");
+    Console.WriteLine("b. C#");
+    Console.WriteLine("c. Python");
+    Console.WriteLine("d. C--");
+
+    Console.WriteLine("⬇️ Enter Your Answer⬇️");
+    string answer1 = Console.ReadLine();
+    
+    if(answer1 == "d") {
+      Console.WriteLine("Correct Answer");
+    }
+    else {
+      Console.WriteLine("Incorrect Answer");
+    }
+
+    
+    Console.WriteLine("------------------------------------");
+    
+    Console.WriteLine("Which one of the following is described as /Increment operator increases integer value by one/?");
+    Console.WriteLine("a. &&");
+    Console.WriteLine("b. ++");
+    Console.WriteLine("c. ==");
+    Console.WriteLine("d. +");
+    
+    Console.WriteLine("⬇️ Enter Your Answer⬇️");
+    string answer2 = Console.ReadLine();
+    
+    if(answer2 == "b") {
+      Console.WriteLine("Correct Answer");
+    }
+    else {
+      Console.WriteLine("Incorrect Answer");
+    }
+
+    
+    Console.WriteLine("------------------------------------");
+
+    Console.WriteLine("What is a OPERATOR PRECEDENCE?");
+    Console.WriteLine("a. A set of rules which defines how an expression is evaluated");
+    Console.WriteLine("b. To show the privilege of a specific instruction");
+    Console.WriteLine("c. Operator have the total rule");
+    Console.WriteLine("d. Nothing related to C#");
+    
+    Console.WriteLine("⬇️ Enter Your Answer⬇️");
+    string answer3 = Console.ReadLine();
+    
+    if(answer3 == "a") {
+      Console.WriteLine("Correct Answer");
+    }
+    else {
+      Console.WriteLine("Incorrect Answer");
+    }
+
+    
+    Console.WriteLine("------------------------------------");
+
+    Console.WriteLine("What does /*/ stands for?");
+    Console.WriteLine("a. adds two operands");
+    Console.WriteLine("b. subtract the second operands from the first");
+    Console.WriteLine("c. multiplies both operands");
+    Console.WriteLine("d. divides numerator by de-numerator");
+    
+    Console.WriteLine("⬇️ Enter Your Answer⬇️");
+    string answer4 = Console.ReadLine();
+    
+    if(answer4 == "c") {
+      Console.WriteLine("Correct Answer");
+    }
+    else {
+      Console.WriteLine("Incorrect Answer");
+    }
+
+    
+    Console.WriteLine("------------------------------------");
+
+    Console.WriteLine("Who is our Intro to Computer Studies teacher?");
+    Console.WriteLine("a. Dr. Hough");
+    Console.WriteLine("b. Ms. Shoemaker");
+    Console.WriteLine("c. Mr. White");
+    Console.WriteLine("d. Ms. S. Sachdeva");
+    
+    Console.WriteLine("⬇️ Enter Your Answer⬇️");
+    string answer5 = Console.ReadLine();
+    
+    if(answer5 == "d") {
+      Console.WriteLine("Correct Answer");
+    }
+    else {
+      Console.WriteLine("Incorrect Answer");
+    }
+  }
+}
+
